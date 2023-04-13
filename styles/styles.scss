@@ -60,30 +60,39 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #1e9264;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #781f64;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #7d921e;
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #ef3211;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #19066e;
+}
+
+.active{
+    display: block;
 }
 
 //Controls
-.controls{
+.controlls{
     position: fixed;
     z-index: 10;
     top: 50%;
